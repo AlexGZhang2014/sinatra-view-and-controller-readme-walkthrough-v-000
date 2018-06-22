@@ -13,6 +13,6 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    
+    @friends = ["Emily Wilid"]
   end
 end
